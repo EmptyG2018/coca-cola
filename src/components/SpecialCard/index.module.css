@@ -1,0 +1,16 @@
+.special-card {
+  text-align: center;
+}
+.special-card :global(.ant-card-body) {
+  padding: 24px 16px;
+}
+.special-card .special-card__title {
+  margin: 12px 0;
+}
+.special-card .special-card__desc {
+  padding: 0 8px;
+  margin: 0;
+}
+.special-card .special-card__info {
+  margin: 14px 0;
+}

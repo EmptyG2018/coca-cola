@@ -1,0 +1,29 @@
+.article .article__title {
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0 0 8px 0 !important;
+}
+.article .article__content {
+  display: flex;
+}
+.article .article__content .article__thumb {
+  margin-right: 8px;
+}
+.article .article__content .article__thumb .article__image {
+  border-radius: 2px;
+}
+.article .article__content .article__cell {
+  flex: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.article .article__content .article__cell .article__desc {
+  font-size: 15px;
+}
+.article .article__action {
+  display: flex;
+  align-items: center;
+}
+.article .article__action .interval {
+  margin: 0 6px;
+}

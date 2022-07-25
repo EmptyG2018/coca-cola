@@ -1,0 +1,38 @@
+.header {
+  z-index: 1;
+  position: relative;
+  background: #fff;
+  height: 60px;
+  line-height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+  padding: 0;
+}
+
+.header .header__wrap {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 0 20px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header .header__lft {
+  display: flex;
+}
+.header .header__lft .logo {
+  margin-right: 14px;
+}
+.header .header__lft .search {
+  display: flex;
+  align-items: center;
+  line-height: initial;
+}
+
+.header .header__extra {
+  display: flex;
+  align-items: center;
+  line-height: initial;
+}

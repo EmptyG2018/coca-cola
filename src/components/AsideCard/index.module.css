@@ -1,0 +1,20 @@
+.aside-card {
+  width: 100%;
+}
+.aside-card :global(.ant-card-body) {
+  padding: 20px;
+}
+
+.aside-card .aside-card__header {
+  margin-bottom: 10px;
+}
+
+.aside-card .aside-card__header .aside-card__icon {
+  margin-right: 4px;
+}
+
+.aside-card .aside-card__header .aside-card__title {
+  color: #8590a6;
+  font-size: 14px;
+  font-weight: bold;
+}
