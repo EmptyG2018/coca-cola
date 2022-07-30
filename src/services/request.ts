@@ -8,7 +8,10 @@ const errorHandler = async (error: ResponseError) => {
     message.error(data.msg);
   } else {
     // 请求初始化时出错或者没有响应返回的异常
-    message.error("服务器异常错误！");
+    message.error({
+      key: 'server error',
+      content: "服务器异常错误！",
+    });
   }
 
   throw error; // 如果throw. 错误将继续抛出.
